@@ -52,6 +52,14 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				// Candy theme colors
+				candy: {
+					orange: 'hsl(var(--candy-orange))',
+					blue: 'hsl(var(--candy-blue))',
+					yellow: 'hsl(var(--candy-yellow))',
+					purple: 'hsl(var(--candy-purple))',
+					green: 'hsl(var(--candy-green))'
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
@@ -88,7 +96,19 @@ export default {
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'sparkle': 'sparkle 2s ease-in-out infinite',
+				'float': 'float 3s ease-in-out infinite',
+				'bounce-in': 'bounceIn 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55)'
+			},
+			backgroundImage: {
+				'gradient-candy': 'var(--gradient-candy)',
+				'gradient-rainbow': 'var(--gradient-rainbow)',
+				'gradient-soft': 'var(--gradient-soft)'
+			},
+			boxShadow: {
+				'candy': 'var(--shadow-candy)',
+				'sparkle': 'var(--shadow-sparkle)'
 			}
 		}
 	},
